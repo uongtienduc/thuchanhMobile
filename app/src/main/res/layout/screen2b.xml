@@ -95,10 +95,11 @@
 
     <View
         android:id="@+id/view6"
-        android:layout_width="350dp"
-        android:layout_height="306dp"
+        android:layout_width="353dp"
+        android:layout_height="304dp"
+        android:background="@drawable/rectangle_2b1"
         tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="363dp" />
+        tools:layout_editor_absoluteY="365dp" />
 
     <TextView
         android:id="@+id/textView7"
@@ -109,5 +110,13 @@
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="@+id/view6"
         tools:layout_editor_absoluteX="38dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="353dp"
+        android:layout_height="46dp"
+        android:text="Gửi"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="669dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
