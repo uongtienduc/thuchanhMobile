@@ -9,79 +9,51 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="97dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="68dp"
-        android:layout_marginBottom="58dp"
+        android:layout_width="92dp"
+        android:layout_height="55dp"
         android:text="LOGIN"
         android:textColor="#000000"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:lineHeight="35px" />
+        app:lineHeight="35px"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="134dp" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="337dp"
+        android:layout_width="342dp"
         android:layout_height="51dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginRight="50dp"
-        android:layout_marginBottom="342dp"
         android:text="LOGIN"
         android:textSize="18sp"
         android:textStyle="bold"
         app:backgroundTint="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="545dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="344dp"
         android:layout_height="58dp"
-        android:layout_marginStart="51dp"
-        android:layout_marginLeft="51dp"
-        android:layout_marginEnd="51dp"
-        android:layout_marginRight="51dp"
-        android:layout_marginBottom="19dp"
+        android:background="@drawable/rectangle"
         android:drawableLeft="@drawable/avatar_user_1"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name"
-        android:background="@drawable/rectangle"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="328dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="343dp"
         android:layout_height="62dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginRight="50dp"
-        android:layout_marginBottom="36dp"
         android:background="@drawable/rectangle"
         android:drawableLeft="@drawable/lock_152879_1"
         android:drawableRight="@drawable/eye_1"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Password"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.433"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="415dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -92,6 +64,6 @@
         android:textSize="24sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="517dp" />
+        tools:layout_editor_absoluteY="758dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

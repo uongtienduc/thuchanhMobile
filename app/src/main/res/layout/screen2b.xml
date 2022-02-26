@@ -35,18 +35,16 @@
         android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/view4"
-        app:layout_constraintTop_toTopOf="@+id/view4"
-        app:layout_constraintVertical_bias="0.035"
-        tools:layout_editor_absoluteX="143dp" />
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="140dp" />
 
     <RatingBar
         android:id="@+id/ratingBar2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="472dp"
+        android:layout_marginBottom="656dp"
         app:layout_constraintBottom_toBottomOf="@+id/view4"
-        tools:layout_editor_absoluteX="98dp" />
+        tools:layout_editor_absoluteX="90dp" />
 
     <View
         android:id="@+id/view3"
@@ -68,7 +66,7 @@
         android:layout_height="70dp"
         android:background="@drawable/rectangle2b"
         tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="285dp" />
+        tools:layout_editor_absoluteY="286dp" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -95,16 +93,17 @@
 
     <View
         android:id="@+id/view6"
-        android:layout_width="353dp"
-        android:layout_height="304dp"
+        android:layout_width="349dp"
+        android:layout_height="450dp"
         android:background="@drawable/rectangle_2b1"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="365dp" />
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="363dp" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="335dp"
         android:layout_height="62dp"
+        android:layout_marginTop="12dp"
         android:text="Hãy chia sẻ những điều mà bạn thích về sản phẩm"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -113,10 +112,10 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="353dp"
-        android:layout_height="46dp"
+        android:layout_width="351dp"
+        android:layout_height="51dp"
         android:text="Gửi"
         tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="669dp" />
+        tools:layout_editor_absoluteY="813dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
