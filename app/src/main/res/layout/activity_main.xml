@@ -7,29 +7,6 @@
     android:background="@drawable/gradient_bg"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="92dp"
-        android:layout_height="55dp"
-        android:text="LOGIN"
-        android:textColor="#000000"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:lineHeight="35px"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="134dp" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="342dp"
-        android:layout_height="51dp"
-        android:text="LOGIN"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:backgroundTint="#000000"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="545dp" />
-
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="344dp"
@@ -40,7 +17,41 @@
         android:inputType="textPersonName"
         android:text="Name"
         tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="328dp" />
+        tools:layout_editor_absoluteY="224dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="92dp"
+        android:layout_height="55dp"
+        android:text="LOGIN"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:lineHeight="35px"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="342dp"
+        android:layout_height="51dp"
+        android:text="LOGIN"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#000000"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="441dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot your password?"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="654dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
@@ -53,17 +64,6 @@
         android:inputType="textPersonName"
         android:text="Password"
         tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="415dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Forgot your password?"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="758dp" />
+        tools:layout_editor_absoluteY="311dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
